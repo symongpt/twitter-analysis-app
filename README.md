@@ -1,52 +1,102 @@
-# Movie/Songs Recommendation based on Tweet Analysis
+# 🎬 Twitter Analysis App 🎶
 
-----
+Welcome to the **Twitter Analysis App**! This web application combines the power of real-time tweet analysis with sentiment analysis to recommend trending movies and songs. By fetching data from Spotify and TMDB, it provides personalized email updates to users based on their preferences.
 
-## Problem Description 📋
-⚡️ In recent times, everyone wants to stay updated regarding a variety of information in all sorts of domains. Nowadays, Twitter is being extensively used by users to explore what's happening around the world and share their thoughts on the same. Particularly, topics such as movies, songs trend on Twitter regularly.
-⚡️ This Web application will provide the users the comfort of not scrolling the whole twitter feed page to find out the general perception of the other users and critics about the movies or songs that they would want to watch or listen to in the future. The application will provide real time analysis of tweets.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/symongpt/twitter-analysis-app/releases)
 
-## Installation 📦
+## 📚 Table of Contents
 
->Clone this repository
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-#### Install libraries
->pip install -r requirements.txt
+## 🚀 Features
 
-#### Run server locally
+- **Real-Time Analysis**: The app analyzes tweets in real-time to gauge public sentiment about movies and songs.
+- **Personalized Recommendations**: Users receive tailored recommendations based on their interests.
+- **Email Alerts**: Get updates directly to your inbox about trending movies and songs.
+- **Integration with Spotify and TMDB**: Access a vast database of music and movies for accurate recommendations.
+- **User Feedback System**: Users can provide feedback on recommendations to improve the system.
 
-```shell
-$ cd TweetAnalysis
-$ python manage.py runserver
-```
-> Go to localhost:8000
+## 🛠️ Technologies Used
 
----
-## Features 📋
-⚡️ The latest songs and movies will be fetched from Spotify and TMDB.
-⚡️ Sentiment analysis of the feed visually represented in data studio.
-⚡️ Trending movies and songs will be emailed to the user specified email id for their record so that the user can play or watch the movies or songs in their free time.
+This application utilizes several technologies to provide a seamless experience:
 
+- **Django**: A high-level Python web framework that encourages rapid development.
+- **Python**: The primary programming language used for backend development and data analysis.
+- **Natural Language Processing (NLP)**: Used for sentiment analysis of tweets.
+- **Spotify API**: For fetching music data.
+- **TMDB API**: For accessing movie data.
+- **Email Services**: To send personalized updates to users.
 
-## Contributing 💡
+## 🌐 Getting Started
 
+To get started with the Twitter Analysis App, follow these steps:
 
-#### Step 1
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/symongpt/twitter-analysis-app.git
+   ```
 
-- **Option 1**
-    - 🍴 Fork this repo!
+2. **Install Dependencies**: Navigate to the project directory and install the required packages.
+   ```bash
+   cd twitter-analysis-app
+   pip install -r requirements.txt
+   ```
 
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
+3. **Set Up Environment Variables**: Create a `.env` file in the root directory and add your API keys for Twitter, Spotify, and TMDB.
 
+4. **Run the Application**: Start the server using the following command:
+   ```bash
+   python manage.py runserver
+   ```
 
-#### Step 2
+5. **Access the App**: Open your web browser and go to `http://127.0.0.1:8000`.
 
-- **Build your code** 🔨🔨🔨
+## 📊 Usage
 
-#### Step 3
+Once the application is running, users can:
 
-- 🔃 Create a new pull request.
+- **Sign Up**: Create an account to start receiving recommendations.
+- **Connect Social Media**: Link your Twitter account for real-time analysis.
+- **Set Preferences**: Specify your favorite genres for personalized recommendations.
+- **Receive Email Updates**: Get alerts about trending movies and songs based on your interests.
 
-## License
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+## 🤝 Contributing
+
+We welcome contributions to enhance the Twitter Analysis App. Here’s how you can help:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of the page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add a new feature"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 📞 Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+
+Explore the latest updates and releases here: [![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/symongpt/twitter-analysis-app/releases)
+
+Thank you for checking out the Twitter Analysis App! We hope you enjoy discovering new movies and songs through our platform.
